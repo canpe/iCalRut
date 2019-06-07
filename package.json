@@ -1,0 +1,22 @@
+{
+  "name": "icalrut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canpe/iCalRut.git"
+  },
+  "author": "cape",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/canpe/iCalRut/issues"
+  },
+  "homepage": "https://github.com/canpe/iCalRut#readme",
+  "dependencies": {
+    "ics-to-json": "^1.0.0"
+  }
+}
