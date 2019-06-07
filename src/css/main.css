@@ -1,0 +1,28 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Color code of the application */
+.color-black {
+    color: #433D3E;
+} 
+
+.color-gray {
+    color: #9C9495;
+}
+
+.color-light-brown {
+    color: #CFBCB0;
+}
+
+.bgcolor-white {
+    background-color: #FEFBFB;
+}
+
+.bgcolor-orange {
+    background-color: #E7A07F;
+}
+
+.bgcolor-pink {
+    background-color: #FE3562;
+}

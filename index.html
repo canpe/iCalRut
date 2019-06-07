@@ -1,0 +1,45 @@
+<html lang="en">
+    <title>iCalRut v.1.0</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <!-- PWA manifest JSON -->
+        <link rel="manifest" href="/manifest.json">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="src/css/reset.css"/>
+        <link rel="stylesheet" href="src/css/main.css"/>
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.3.1026/styles/kendo.common.min.css"/>
+		<link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.3.1026/styles/kendo.rtl.min.css"/>
+		<link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.3.1026/styles/kendo.silver.min.css"/>
+		<link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.3.1026/styles/kendo.mobile.all.min.css"/>
+    
+        <script src="https://kendo.cdn.telerik.com/2017.3.1026/js/jquery.min.js"></script>
+        <script src="https://kendo.cdn.telerik.com/2017.3.1026/js/kendo.all.min.js"></script>
+        <script src="src/js/main.js"></script>
+
+        <!-- iOS support -->
+        <link rel="apple-touch-icon" href="/src/img/icons/icon-128x128.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/src/img/icons/icon-152x152.png">
+        <!-- iPhone Xr (828px x 1792px) --> 
+        <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" href="/src/img/launch/apple-launch-828x1792.png">
+        <!-- iPhone X, Xs (1125px x 2436px) --> 
+        <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="/src/img/launch/apple-launch-1125x2436.png">
+        <!-- iPhone 8 Plus, 7 Plus, 6s Plus, 6 Plus (1242px x 2208px) --> 
+        <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)" href="/src/img/launch/apple-launch-1242x2208.png">
+        <!-- iPhone 8, 7, 6s, 6 (750px x 1334px) --> 
+        <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="/src/img/launch/apple-launch-750x1334.png">
+    </head>
+    <body>
+        <div class="top-panel">
+            HELLO WORLD
+        </div>
+        <div id="main-panel" class="main-panel"></div>
+    </body>
+</html>
+<script>
+	$(document).ready(function() { new Main(); });
+</script>
